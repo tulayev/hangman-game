@@ -1,6 +1,6 @@
-﻿namespace Viselka
+﻿namespace Hangman
 {
-    partial class FormViselka
+    partial class MainForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -39,7 +39,7 @@
             // 
             this.pictureStep.BackColor = System.Drawing.Color.White;
             this.pictureStep.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureStep.Image = global::Viselka.Properties.Resources.step0;
+            this.pictureStep.Image = global::Hangman.Properties.Resources.step0;
             this.pictureStep.Location = new System.Drawing.Point(3, 9);
             this.pictureStep.Name = "pictureStep";
             this.pictureStep.Size = new System.Drawing.Size(247, 240);
@@ -60,8 +60,8 @@
             // 
             // panelKeys
             // 
-            this.panelKeys.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.panelKeys.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelKeys.Location = new System.Drawing.Point(256, 86);
             this.panelKeys.Name = "panelKeys";
@@ -79,7 +79,7 @@
             this.textList.TabIndex = 3;
             this.textList.Visible = false;
             // 
-            // FormViselka
+            // FormHangman
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -90,7 +90,7 @@
             this.Controls.Add(this.pictureStep);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MinimizeBox = false;
-            this.Name = "FormViselka";
+            this.Name = "FormHangman";
             this.Text = "Игра Виселка";
             ((System.ComponentModel.ISupportInitialize)(this.pictureStep)).EndInit();
             this.ResumeLayout(false);

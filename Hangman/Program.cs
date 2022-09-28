@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Viselka
+namespace Hangman
 {
     static class Program
     {
@@ -16,7 +13,7 @@ namespace Viselka
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormViselka());
+            Application.Run(new MainForm());
         }
     }
 }

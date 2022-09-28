@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Viselka.Properties
+namespace Hangman.Properties
 {
 
 
